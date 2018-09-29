@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 12563429}
   m_Layer: 0
   m_Name: PlatformTIles_10 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -186,7 +186,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 65
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &12563429
 BoxCollider2D:
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 25685308}
   m_Layer: 0
   m_Name: PlatformTIles_7 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -285,7 +285,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 55
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &82950071
 GameObject:
@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 82950072}
   m_Layer: 0
   m_Name: PlatformTIles_1 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -385,7 +385,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 104
+  m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &87360778
 GameObject:
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 87360779}
   m_Layer: 0
   m_Name: PlatformTIles_2 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 89501967}
   m_Layer: 0
   m_Name: PlatformTIles_10 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -560,7 +560,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &89501967
 BoxCollider2D:
@@ -599,7 +599,7 @@ GameObject:
   - component: {fileID: 96939233}
   m_Layer: 0
   m_Name: PlatformTIles_3 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -773,7 +773,7 @@ GameObject:
   - component: {fileID: 110521967}
   m_Layer: 0
   m_Name: PlatformTIles_3 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -873,7 +873,7 @@ GameObject:
   - component: {fileID: 122551381}
   m_Layer: 0
   m_Name: PlatformTIles_2 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -972,7 +972,7 @@ GameObject:
   - component: {fileID: 134684718}
   m_Layer: 0
   m_Name: PlatformTIles_7 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1033,7 +1033,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 58
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &138601903
 GameObject:
@@ -1121,7 +1121,7 @@ GameObject:
   - component: {fileID: 146645369}
   m_Layer: 0
   m_Name: PlatformTIles_10 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1182,7 +1182,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.033618644, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 98
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &146645369
 BoxCollider2D:
@@ -1220,7 +1220,7 @@ GameObject:
   - component: {fileID: 163843262}
   m_Layer: 0
   m_Name: PlatformTIles_7 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1281,7 +1281,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 87
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &168798928
 GameObject:
@@ -1295,7 +1295,7 @@ GameObject:
   - component: {fileID: 168798931}
   m_Layer: 0
   m_Name: PlatformTIles_7 (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1356,7 +1356,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.033618644, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 103
+  m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &168798931
 BoxCollider2D:
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 220583972}
   m_Layer: 0
   m_Name: PlatformTIles_16 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1495,7 +1495,7 @@ GameObject:
   - component: {fileID: 221921109}
   m_Layer: 0
   m_Name: PlatformTIles_8 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1583,6 +1583,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &256334748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 256334749}
+  - component: {fileID: 256334751}
+  - component: {fileID: 256334750}
+  m_Layer: 5
+  m_Name: txt_Coin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &256334749
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 256334748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 388962272}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 236.5, y: 87.4}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &256334750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 256334748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 35
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Coins = 0
+--- !u!222 &256334751
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 256334748}
 --- !u!1 &279657398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,7 +1669,7 @@ GameObject:
   - component: {fileID: 279657400}
   m_Layer: 0
   m_Name: PlatformTIles_9 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1794,7 +1868,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &297009117
 GameObject:
@@ -1807,7 +1881,7 @@ GameObject:
   - component: {fileID: 297009118}
   m_Layer: 0
   m_Name: PlatformTIles_7 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1868,7 +1942,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 86
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &319173957
 GameObject:
@@ -1881,7 +1955,7 @@ GameObject:
   - component: {fileID: 319173958}
   m_Layer: 0
   m_Name: PlatformTIles_7 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1942,7 +2016,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 85
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &319589350
 GameObject:
@@ -1956,7 +2030,7 @@ GameObject:
   - component: {fileID: 319589351}
   m_Layer: 0
   m_Name: PlatformTIles_1 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2056,7 +2130,7 @@ GameObject:
   - component: {fileID: 324736480}
   m_Layer: 0
   m_Name: PlatformTIles_2 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2072,7 +2146,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &324736480
 BoxCollider2D:
@@ -2230,7 +2304,7 @@ GameObject:
   - component: {fileID: 325614821}
   m_Layer: 0
   m_Name: PlatformTIles_2 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2330,7 +2404,7 @@ GameObject:
   - component: {fileID: 335393484}
   m_Layer: 0
   m_Name: PlatformTIles_10 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2391,7 +2465,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.033618644, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 71
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &335393484
 BoxCollider2D:
@@ -2430,7 +2504,7 @@ GameObject:
   - component: {fileID: 339946725}
   m_Layer: 0
   m_Name: PlatformTIles_3 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2530,7 +2604,7 @@ GameObject:
   - component: {fileID: 346566547}
   m_Layer: 0
   m_Name: PlatformTIles_7 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2591,7 +2665,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 64
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &346566547
 BoxCollider2D:
@@ -2630,7 +2704,7 @@ GameObject:
   - component: {fileID: 348217847}
   m_Layer: 0
   m_Name: PlatformTIles_2 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2646,7 +2720,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &348217847
 BoxCollider2D:
@@ -2730,7 +2804,7 @@ GameObject:
   - component: {fileID: 349063751}
   m_Layer: 0
   m_Name: PlatformTIles_2 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2831,7 +2905,7 @@ GameObject:
   - component: {fileID: 355725119}
   m_Layer: 0
   m_Name: PlatformTIles_1 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2847,7 +2921,7 @@ Transform:
   m_LocalScale: {x: 0.040287856, y: 0.049999997, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &355725117
 BoxCollider2D:
@@ -2956,7 +3030,7 @@ GameObject:
   - component: {fileID: 361023552}
   m_Layer: 0
   m_Name: PlatformTIles_7 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3017,7 +3091,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 61
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &361023552
 BoxCollider2D:
@@ -3056,7 +3130,7 @@ GameObject:
   - component: {fileID: 365016520}
   m_Layer: 0
   m_Name: PlatformTIles_10 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3117,7 +3191,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 90
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &365016520
 BoxCollider2D:
@@ -3230,7 +3304,7 @@ GameObject:
   - component: {fileID: 368441379}
   m_Layer: 0
   m_Name: PlatformTIles_1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3330,7 +3404,7 @@ GameObject:
   - component: {fileID: 369081217}
   m_Layer: 0
   m_Name: PlatformTIles_2 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3430,7 +3504,7 @@ GameObject:
   - component: {fileID: 369916654}
   m_Layer: 0
   m_Name: PlatformTIles_2 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3516,7 +3590,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 105
+  m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &378130203
 GameObject:
@@ -3530,7 +3604,7 @@ GameObject:
   - component: {fileID: 378130204}
   m_Layer: 0
   m_Name: PlatformTIles_9
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3707,8 +3781,9 @@ RectTransform:
   - {fileID: 726008395}
   - {fileID: 927716634}
   - {fileID: 636597126}
+  - {fileID: 256334749}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3727,7 +3802,7 @@ GameObject:
   - component: {fileID: 393250875}
   m_Layer: 0
   m_Name: PlatformTIles_7 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3914,7 +3989,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &396835146
 MonoBehaviour:
@@ -3939,7 +4014,7 @@ GameObject:
   - component: {fileID: 440826437}
   m_Layer: 0
   m_Name: PlatformTIles_6 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4000,7 +4075,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.033618644, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 69
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &456622889
 GameObject:
@@ -4014,7 +4089,7 @@ GameObject:
   - component: {fileID: 456622891}
   m_Layer: 0
   m_Name: PlatformTIles_3 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4030,7 +4105,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 37
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &456622891
 BoxCollider2D:
@@ -4162,7 +4237,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &496609376
 GameObject:
@@ -4176,7 +4251,7 @@ GameObject:
   - component: {fileID: 496609377}
   m_Layer: 0
   m_Name: PlatformTIles_6
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4276,7 +4351,7 @@ GameObject:
   - component: {fileID: 498020899}
   m_Layer: 0
   m_Name: PlatformTIles_8 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4376,7 +4451,7 @@ GameObject:
   - component: {fileID: 523416419}
   m_Layer: 0
   m_Name: PlatformTIles_1 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4600,7 +4675,7 @@ GameObject:
   - component: {fileID: 526947554}
   m_Layer: 0
   m_Name: PlatformTIles_2 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4686,7 +4761,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 79
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &566443879
 GameObject:
@@ -4774,7 +4849,7 @@ GameObject:
   - component: {fileID: 586688531}
   m_Layer: 0
   m_Name: PlatformTIles_2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4874,7 +4949,7 @@ GameObject:
   - component: {fileID: 587152738}
   m_Layer: 0
   m_Name: PlatformTIles_7 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5048,7 +5123,7 @@ GameObject:
   - component: {fileID: 591881242}
   m_Layer: 0
   m_Name: PlatformTIles_7 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5109,7 +5184,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05620521, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 76
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &591881242
 BoxCollider2D:
@@ -5148,7 +5223,7 @@ GameObject:
   - component: {fileID: 593525537}
   m_Layer: 0
   m_Name: PlatformTIles_7 (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5209,7 +5284,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 102
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &593525537
 BoxCollider2D:
@@ -5444,7 +5519,7 @@ GameObject:
   - component: {fileID: 657479018}
   m_Layer: 0
   m_Name: PlatformTIles_8 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5545,7 +5620,7 @@ GameObject:
   - component: {fileID: 673548267}
   m_Layer: 0
   m_Name: PlatformTIles_1 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5631,7 +5706,7 @@ Transform:
   m_LocalScale: {x: 0.05095, y: 0.049999997, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 99
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &673548267
 BoxCollider2D:
@@ -5670,7 +5745,7 @@ GameObject:
   - component: {fileID: 673900742}
   m_Layer: 0
   m_Name: PlatformTIles_1 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5770,7 +5845,7 @@ GameObject:
   - component: {fileID: 678282393}
   m_Layer: 0
   m_Name: PlatformTIles_7 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5831,7 +5906,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 67
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &678282393
 BoxCollider2D:
@@ -5869,7 +5944,7 @@ GameObject:
   - component: {fileID: 696416461}
   m_Layer: 0
   m_Name: PlatformTIles_6 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5930,7 +6005,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 66
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &709865853
 GameObject:
@@ -5944,7 +6019,7 @@ GameObject:
   - component: {fileID: 709865856}
   m_Layer: 0
   m_Name: PlatformTIles_10 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6005,7 +6080,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 59
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &709865856
 BoxCollider2D:
@@ -6044,7 +6119,7 @@ GameObject:
   - component: {fileID: 712876357}
   m_Layer: 0
   m_Name: PlatformTIles_1 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6194,7 +6269,7 @@ Transform:
   - {fileID: 1696869509}
   - {fileID: 1830549059}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &726008394
 GameObject:
@@ -6332,7 +6407,7 @@ GameObject:
   - component: {fileID: 730917440}
   m_Layer: 0
   m_Name: PlatformTIles_10 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6393,7 +6468,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 96
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &730917440
 BoxCollider2D:
@@ -6432,7 +6507,7 @@ GameObject:
   - component: {fileID: 736367669}
   m_Layer: 0
   m_Name: PlatformTIles_6 (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6493,7 +6568,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.033618644, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 97
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &736367669
 BoxCollider2D:
@@ -6619,7 +6694,7 @@ Transform:
   m_LocalScale: {x: 2.7527623, y: 2.9665694, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &739334839
 MonoBehaviour:
@@ -6645,7 +6720,7 @@ GameObject:
   - component: {fileID: 753897456}
   m_Layer: 0
   m_Name: PlatformTIles_2 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6745,7 +6820,7 @@ GameObject:
   - component: {fileID: 777233556}
   m_Layer: 0
   m_Name: PlatformTIles_8 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6845,7 +6920,7 @@ GameObject:
   - component: {fileID: 778800403}
   m_Layer: 0
   m_Name: PlatformTIles_3 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6945,7 +7020,7 @@ GameObject:
   - component: {fileID: 787002686}
   m_Layer: 0
   m_Name: PlatformTIles_3 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7031,7 +7106,7 @@ Transform:
   m_LocalScale: {x: 0.03339, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 80
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &789469719
 GameObject:
@@ -7045,7 +7120,7 @@ GameObject:
   - component: {fileID: 789469722}
   m_Layer: 0
   m_Name: PlatformTIles_6 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7106,7 +7181,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 95
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &789469722
 BoxCollider2D:
@@ -7145,7 +7220,7 @@ GameObject:
   - component: {fileID: 808498033}
   m_Layer: 0
   m_Name: PlatformTIles_6 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7206,7 +7281,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 54
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &808498033
 BoxCollider2D:
@@ -7245,7 +7320,7 @@ GameObject:
   - component: {fileID: 813550126}
   m_Layer: 0
   m_Name: PlatformTIles_10 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7306,7 +7381,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 91
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &813550126
 BoxCollider2D:
@@ -7345,7 +7420,7 @@ GameObject:
   - component: {fileID: 819435526}
   m_Layer: 0
   m_Name: PlatformTIles_6 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7406,7 +7481,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &819435526
 BoxCollider2D:
@@ -7433,6 +7508,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20.749998, y: 12.625}
   m_EdgeRadius: 0
+--- !u!1 &834764915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 834764917}
+  - component: {fileID: 834764916}
+  m_Layer: 5
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &834764916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834764915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d5f2e725bc9fc4eae20afd6b2465da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: 0
+  textCoin: {fileID: 256334750}
+--- !u!224 &834764917
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834764915}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.008333334, y: 0.008333334, z: 0.008333334}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -7.967917, y: 0.63583326}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &840917798
 GameObject:
   m_ObjectHideFlags: 0
@@ -7518,7 +7640,7 @@ GameObject:
   - component: {fileID: 861296385}
   m_Layer: 0
   m_Name: PlatformTIles_7 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7579,7 +7701,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.033618644, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 70
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &865206881
 GameObject:
@@ -7593,7 +7715,7 @@ GameObject:
   - component: {fileID: 865206882}
   m_Layer: 0
   m_Name: PlatformTIles_1 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7693,7 +7815,7 @@ GameObject:
   - component: {fileID: 877848248}
   m_Layer: 0
   m_Name: PlatformTIles_1 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7709,7 +7831,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &877848248
 BoxCollider2D:
@@ -7793,7 +7915,7 @@ GameObject:
   - component: {fileID: 881994394}
   m_Layer: 0
   m_Name: PlatformTIles_3 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7893,7 +8015,7 @@ GameObject:
   - component: {fileID: 889295270}
   m_Layer: 0
   m_Name: PlatformTIles_7
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7994,7 +8116,7 @@ GameObject:
   - component: {fileID: 913823769}
   m_Layer: 0
   m_Name: PlatformTIles_2 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8010,7 +8132,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &913823767
 BoxCollider2D:
@@ -8119,7 +8241,7 @@ GameObject:
   - component: {fileID: 921676097}
   m_Layer: 0
   m_Name: PlatformTIles_7 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8341,7 +8463,7 @@ GameObject:
   - component: {fileID: 947781249}
   m_Layer: 0
   m_Name: PlatformTIles_2 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8575,7 +8697,7 @@ Transform:
   m_LocalScale: {x: 1.763103, y: 1.5432432, z: 1.0506102}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &959024867
 GameObject:
@@ -8589,7 +8711,7 @@ GameObject:
   - component: {fileID: 959024868}
   m_Layer: 0
   m_Name: PlatformTIles_1 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8689,7 +8811,7 @@ GameObject:
   - component: {fileID: 965413071}
   m_Layer: 0
   m_Name: PlatformTIles_1 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8888,7 +9010,107 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &979381512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 979381515}
+  - component: {fileID: 979381514}
+  - component: {fileID: 979381513}
+  m_Layer: 0
+  m_Name: Coins (2)
+  m_TagString: Coins
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &979381513
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979381512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8, y: 6}
+    newSize: {x: 8, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8, y: 6}
+  m_EdgeRadius: 0
+--- !u!212 &979381514
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979381512}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a12b867aafff8eb489f4578e1fb0bc38, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &979381515
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979381512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.83, y: 2.51, z: 0}
+  m_LocalScale: {x: 0.095923446, y: 0.115532115, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &982038187
 GameObject:
@@ -8902,7 +9124,7 @@ GameObject:
   - component: {fileID: 982038190}
   m_Layer: 0
   m_Name: PlatformTIles_16
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9076,7 +9298,7 @@ GameObject:
   - component: {fileID: 984709070}
   m_Layer: 0
   m_Name: PlatformTIles_1 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9162,7 +9384,7 @@ Transform:
   m_LocalScale: {x: 0.05095, y: 0.049999997, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 78
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1001541257
 GameObject:
@@ -9176,7 +9398,7 @@ GameObject:
   - component: {fileID: 1001541258}
   m_Layer: 0
   m_Name: PlatformTIles_3 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9262,7 +9484,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 106
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1005704240
 GameObject:
@@ -9276,7 +9498,7 @@ GameObject:
   - component: {fileID: 1005704243}
   m_Layer: 0
   m_Name: PlatformTIles_6 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9337,7 +9559,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 57
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1005704243
 BoxCollider2D:
@@ -9376,7 +9598,7 @@ GameObject:
   - component: {fileID: 1023704046}
   m_Layer: 0
   m_Name: PlatformTIles_2 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9550,7 +9772,7 @@ GameObject:
   - component: {fileID: 1068212694}
   m_Layer: 0
   m_Name: PlatformTIles_2 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9650,7 +9872,7 @@ GameObject:
   - component: {fileID: 1074114997}
   m_Layer: 0
   m_Name: PlatformTIles_6 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9711,7 +9933,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 60
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1074114997
 BoxCollider2D:
@@ -9750,7 +9972,7 @@ GameObject:
   - component: {fileID: 1089530588}
   m_Layer: 0
   m_Name: PlatformTIles_2 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9766,7 +9988,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 38
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1089530588
 BoxCollider2D:
@@ -9850,7 +10072,7 @@ GameObject:
   - component: {fileID: 1091776639}
   m_Layer: 0
   m_Name: PlatformTIles_10 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9911,7 +10133,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 93
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1091776639
 BoxCollider2D:
@@ -9950,7 +10172,7 @@ GameObject:
   - component: {fileID: 1092504882}
   m_Layer: 0
   m_Name: PlatformTIles_7 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10050,7 +10272,7 @@ GameObject:
   - component: {fileID: 1126297908}
   m_Layer: 0
   m_Name: PlatformTIles_16 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10066,7 +10288,7 @@ Transform:
   m_LocalScale: {x: 0.2457106, y: 0.19415, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1126297908
 BoxCollider2D:
@@ -10150,7 +10372,7 @@ GameObject:
   - component: {fileID: 1131113441}
   m_Layer: 0
   m_Name: PlatformTIles_3 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10166,7 +10388,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1131113441
 BoxCollider2D:
@@ -10250,7 +10472,7 @@ GameObject:
   - component: {fileID: 1146962777}
   m_Layer: 0
   m_Name: PlatformTIles_1 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10266,7 +10488,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1146962777
 BoxCollider2D:
@@ -10350,7 +10572,7 @@ GameObject:
   - component: {fileID: 1161949401}
   m_Layer: 0
   m_Name: PlatformTIles_3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10550,7 +10772,7 @@ GameObject:
   - component: {fileID: 1184579937}
   m_Layer: 0
   m_Name: PlatformTIles_1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10692,7 +10914,7 @@ GameObject:
   - component: {fileID: 1209588999}
   m_Layer: 0
   m_Name: PlatformTIles_14 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10753,7 +10975,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 107
+  m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1209588999
 BoxCollider2D:
@@ -10792,7 +11014,7 @@ GameObject:
   - component: {fileID: 1215132029}
   m_Layer: 0
   m_Name: PlatformTIles_10 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10853,7 +11075,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05620521, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 77
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1215132029
 BoxCollider2D:
@@ -10892,7 +11114,7 @@ GameObject:
   - component: {fileID: 1240280269}
   m_Layer: 0
   m_Name: PlatformTIles_10 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10953,7 +11175,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 74
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1240280269
 BoxCollider2D:
@@ -10992,7 +11214,7 @@ GameObject:
   - component: {fileID: 1256061076}
   m_Layer: 0
   m_Name: PlatformTIles_10 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11053,7 +11275,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 94
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1256061076
 BoxCollider2D:
@@ -11166,7 +11388,7 @@ GameObject:
   - component: {fileID: 1278694854}
   m_Layer: 0
   m_Name: PlatformTIles_1 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11266,7 +11488,7 @@ GameObject:
   - component: {fileID: 1292498900}
   m_Layer: 0
   m_Name: PlatformTIles_10 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11327,7 +11549,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 89
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1292498900
 BoxCollider2D:
@@ -11447,7 +11669,7 @@ GameObject:
   - component: {fileID: 1311941886}
   m_Layer: 0
   m_Name: PlatformTIles_6 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11508,7 +11730,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1311941886
 BoxCollider2D:
@@ -11547,7 +11769,7 @@ GameObject:
   - component: {fileID: 1351499565}
   m_Layer: 0
   m_Name: PlatformTIles_1 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11674,7 +11896,7 @@ Transform:
   - {fileID: 1178769686}
   - {fileID: 325014503}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1386680551
 GameObject:
@@ -11688,7 +11910,7 @@ GameObject:
   - component: {fileID: 1386680554}
   m_Layer: 0
   m_Name: PlatformTIles_6 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11749,7 +11971,7 @@ Transform:
   m_LocalScale: {x: 0.05072328, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 63
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1386680554
 BoxCollider2D:
@@ -11788,7 +12010,7 @@ GameObject:
   - component: {fileID: 1389318139}
   m_Layer: 0
   m_Name: PlatformTIles_1 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11887,7 +12109,7 @@ GameObject:
   - component: {fileID: 1398396457}
   m_Layer: 0
   m_Name: PlatformTIles_7
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11948,7 +12170,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1410313602
 GameObject:
@@ -12110,7 +12332,7 @@ GameObject:
   - component: {fileID: 1433760437}
   m_Layer: 0
   m_Name: PlatformTIles_1 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12210,7 +12432,7 @@ GameObject:
   - component: {fileID: 1444178656}
   m_Layer: 0
   m_Name: PlatformTIles_10 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12271,7 +12493,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 56
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1444178656
 BoxCollider2D:
@@ -12310,7 +12532,7 @@ GameObject:
   - component: {fileID: 1450729325}
   m_Layer: 0
   m_Name: PlatformTIles_10 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12371,7 +12593,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 68
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1450729325
 BoxCollider2D:
@@ -12411,7 +12633,7 @@ GameObject:
   - component: {fileID: 1456387729}
   m_Layer: 0
   m_Name: PlatformTIles_3 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12497,7 +12719,7 @@ Transform:
   m_LocalScale: {x: 0.03339, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 101
+  m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1456387729
 BoxCollider2D:
@@ -12535,7 +12757,7 @@ GameObject:
   - component: {fileID: 1457419358}
   m_Layer: 0
   m_Name: PlatformTIles_7 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12596,7 +12818,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 82
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1460253926
 GameObject:
@@ -12610,7 +12832,7 @@ GameObject:
   - component: {fileID: 1460253927}
   m_Layer: 0
   m_Name: PlatformTIles_1 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12797,7 +13019,7 @@ Transform:
   m_LocalScale: {x: 0.38807073, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1468553084
 MonoBehaviour:
@@ -12823,7 +13045,7 @@ GameObject:
   - component: {fileID: 1471592693}
   m_Layer: 0
   m_Name: PlatformTIles_7 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12884,7 +13106,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.033618644, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 88
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1471592693
 BoxCollider2D:
@@ -12923,7 +13145,7 @@ GameObject:
   - component: {fileID: 1473468702}
   m_Layer: 0
   m_Name: PlatformTIles_2 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12939,7 +13161,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1473468702
 BoxCollider2D:
@@ -13023,7 +13245,7 @@ GameObject:
   - component: {fileID: 1478309271}
   m_Layer: 0
   m_Name: PlatformTIles_7 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13084,7 +13306,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 83
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1478309271
 BoxCollider2D:
@@ -13123,7 +13345,7 @@ GameObject:
   - component: {fileID: 1527109535}
   m_Layer: 0
   m_Name: PlatformTIles_2 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13223,7 +13445,7 @@ GameObject:
   - component: {fileID: 1559297426}
   m_Layer: 0
   m_Name: PlatformTIles_2 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13239,7 +13461,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1559297426
 BoxCollider2D:
@@ -13323,7 +13545,7 @@ GameObject:
   - component: {fileID: 1573519912}
   m_Layer: 0
   m_Name: PlatformTIles_8
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13423,7 +13645,7 @@ GameObject:
   - component: {fileID: 1574083450}
   m_Layer: 0
   m_Name: PlatformTIles_2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13524,7 +13746,7 @@ GameObject:
   - component: {fileID: 1577952532}
   m_Layer: 0
   m_Name: PlatformTIles_3 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13540,7 +13762,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.052207045, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1577952530
 BoxCollider2D:
@@ -13649,7 +13871,7 @@ GameObject:
   - component: {fileID: 1585909684}
   m_Layer: 0
   m_Name: PlatformTIles_1 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13763,8 +13985,8 @@ Transform:
   m_LocalPosition: {x: 25.31, y: -0.8, z: 0}
   m_LocalScale: {x: 1.763103, y: 1.5432432, z: 1.0506102}
   m_Children: []
-  m_Father: {fileID: 1810976599}
-  m_RootOrder: 29
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1586363816
 SpriteRenderer:
@@ -13823,7 +14045,7 @@ GameObject:
   - component: {fileID: 1588981181}
   m_Layer: 0
   m_Name: PlatformTIles_2 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13923,7 +14145,7 @@ GameObject:
   - component: {fileID: 1599501020}
   m_Layer: 0
   m_Name: PlatformTIles_2 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14024,7 +14246,7 @@ GameObject:
   - component: {fileID: 1603010544}
   m_Layer: 0
   m_Name: PlatformTIles_2 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14110,7 +14332,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.049999997}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 100
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1603010544
 BoxCollider2D:
@@ -14137,6 +14359,206 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20.875, y: 18.4375}
   m_EdgeRadius: 0
+--- !u!1 &1623505884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1623505887}
+  - component: {fileID: 1623505886}
+  - component: {fileID: 1623505885}
+  m_Layer: 0
+  m_Name: Coins
+  m_TagString: Coins
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1623505885
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1623505884}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8, y: 6}
+    newSize: {x: 8, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8, y: 6}
+  m_EdgeRadius: 0
+--- !u!212 &1623505886
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1623505884}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a12b867aafff8eb489f4578e1fb0bc38, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &1623505887
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1623505884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.92, y: -1.15, z: 0}
+  m_LocalScale: {x: 0.095923446, y: 0.115532115, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1652568704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1652568707}
+  - component: {fileID: 1652568706}
+  - component: {fileID: 1652568705}
+  m_Layer: 0
+  m_Name: Coins (1)
+  m_TagString: Coins
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1652568705
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652568704}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8, y: 6}
+    newSize: {x: 8, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8, y: 6}
+  m_EdgeRadius: 0
+--- !u!212 &1652568706
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652568704}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a12b867aafff8eb489f4578e1fb0bc38, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &1652568707
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1652568704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.31, y: 0.19, z: 0}
+  m_LocalScale: {x: 0.095923446, y: 0.115532115, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1675455037
 GameObject:
   m_ObjectHideFlags: 0
@@ -14265,7 +14687,7 @@ Transform:
   m_Children:
   - {fileID: 1311300558}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1682826664
 GameObject:
@@ -14279,7 +14701,7 @@ GameObject:
   - component: {fileID: 1682826665}
   m_Layer: 0
   m_Name: PlatformTIles_9 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14379,7 +14801,7 @@ GameObject:
   - component: {fileID: 1696869510}
   m_Layer: 0
   m_Name: PlatformTIles_3 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14479,7 +14901,7 @@ GameObject:
   - component: {fileID: 1709886930}
   m_Layer: 0
   m_Name: PlatformTIles_9 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14579,7 +15001,7 @@ GameObject:
   - component: {fileID: 1743439278}
   m_Layer: 0
   m_Name: PlatformTIles_14
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14595,7 +15017,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1743439277
 SpriteRenderer:
@@ -14778,7 +15200,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1759069799
 GameObject:
@@ -14792,7 +15214,7 @@ GameObject:
   - component: {fileID: 1759069802}
   m_Layer: 0
   m_Name: PlatformTIles_10 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14853,7 +15275,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 62
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1759069802
 BoxCollider2D:
@@ -14892,7 +15314,7 @@ GameObject:
   - component: {fileID: 1781031471}
   m_Layer: 0
   m_Name: PlatformTIles_7 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14953,7 +15375,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 73
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1781031471
 BoxCollider2D:
@@ -14992,7 +15414,7 @@ GameObject:
   - component: {fileID: 1787271442}
   m_Layer: 0
   m_Name: PlatformTIles_3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15092,7 +15514,7 @@ GameObject:
   - component: {fileID: 1805248417}
   m_Layer: 0
   m_Name: PlatformTIles_14
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15153,7 +15575,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1805248417
 BoxCollider2D:
@@ -15192,7 +15614,7 @@ GameObject:
   - component: {fileID: 1807797543}
   m_Layer: 0
   m_Name: PlatformTIles_2 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15334,7 +15756,6 @@ Transform:
   - {fileID: 1527109537}
   - {fileID: 110521969}
   - {fileID: 220583971}
-  - {fileID: 1586363815}
   - {fileID: 355725116}
   - {fileID: 913823766}
   - {fileID: 1577952529}
@@ -15414,7 +15835,7 @@ Transform:
   - {fileID: 1001541260}
   - {fileID: 1209588998}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1815001545
 GameObject:
@@ -15428,7 +15849,7 @@ GameObject:
   - component: {fileID: 1815001547}
   m_Layer: 0
   m_Name: PlatformTIles_7 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15528,7 +15949,7 @@ GameObject:
   - component: {fileID: 1830549060}
   m_Layer: 0
   m_Name: PlatformTIles_9 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15628,7 +16049,7 @@ GameObject:
   - component: {fileID: 1842922536}
   m_Layer: 0
   m_Name: PlatformTIles_1 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15728,7 +16149,7 @@ GameObject:
   - component: {fileID: 1845422948}
   m_Layer: 0
   m_Name: PlatformTIles_10 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15789,7 +16210,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 92
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1845422948
 BoxCollider2D:
@@ -15828,7 +16249,7 @@ GameObject:
   - component: {fileID: 1855544231}
   m_Layer: 0
   m_Name: PlatformTIles_1 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15844,7 +16265,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1855544231
 BoxCollider2D:
@@ -15928,7 +16349,7 @@ GameObject:
   - component: {fileID: 1877237038}
   m_Layer: 0
   m_Name: PlatformTIles_8 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16028,7 +16449,7 @@ GameObject:
   - component: {fileID: 1885499900}
   m_Layer: 0
   m_Name: PlatformTIles_7 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16089,7 +16510,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1885499900
 BoxCollider2D:
@@ -16301,7 +16722,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1902741903
 GameObject:
@@ -16389,7 +16810,7 @@ GameObject:
   - component: {fileID: 1905618690}
   m_Layer: 0
   m_Name: PlatformTIles_7 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16450,7 +16871,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 84
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1905618690
 BoxCollider2D:
@@ -16489,7 +16910,7 @@ GameObject:
   - component: {fileID: 1918358693}
   m_Layer: 0
   m_Name: PlatformTIles_6 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16550,7 +16971,7 @@ Transform:
   m_LocalScale: {x: 0.039536662, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 72
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1918358693
 BoxCollider2D:
@@ -16589,7 +17010,7 @@ GameObject:
   - component: {fileID: 1923713786}
   m_Layer: 0
   m_Name: PlatformTIles_2 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16689,7 +17110,7 @@ GameObject:
   - component: {fileID: 1932751922}
   m_Layer: 0
   m_Name: PlatformTIles_1 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16705,7 +17126,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1932751922
 BoxCollider2D:
@@ -16789,7 +17210,7 @@ GameObject:
   - component: {fileID: 1951453153}
   m_Layer: 0
   m_Name: PlatformTIles_7 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16850,7 +17271,7 @@ Transform:
   m_LocalScale: {x: 0.050506283, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 81
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1951453153
 BoxCollider2D:
@@ -16889,7 +17310,7 @@ GameObject:
   - component: {fileID: 1965445577}
   m_Layer: 0
   m_Name: PlatformTIles_1 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16989,7 +17410,7 @@ GameObject:
   - component: {fileID: 1965758406}
   m_Layer: 0
   m_Name: PlatformTIles_1 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17005,7 +17426,7 @@ Transform:
   m_LocalScale: {x: 0.049999997, y: 0.049999997, z: 0.099999994}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1965758406
 BoxCollider2D:
@@ -17089,7 +17510,7 @@ GameObject:
   - component: {fileID: 1965925520}
   m_Layer: 0
   m_Name: PlatformTIles_7
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17249,7 +17670,7 @@ Transform:
   m_LocalScale: {x: 1.7630999, y: 1.54324, z: 1.05061}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2027107074
 GameObject:
@@ -17263,7 +17684,7 @@ GameObject:
   - component: {fileID: 2027107077}
   m_Layer: 0
   m_Name: PlatformTIles_6 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17324,7 +17745,7 @@ Transform:
   m_LocalScale: {x: 0.039536662, y: 0.05620521, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 75
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2027107077
 BoxCollider2D:
@@ -17363,7 +17784,7 @@ GameObject:
   - component: {fileID: 2035539676}
   m_Layer: 0
   m_Name: PlatformTIles_1 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17463,7 +17884,7 @@ GameObject:
   - component: {fileID: 2066535827}
   m_Layer: 0
   m_Name: PlatformTIles_10
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17524,7 +17945,7 @@ Transform:
   m_LocalScale: {x: 0.033393916, y: 0.05, z: 1}
   m_Children: []
   m_Father: {fileID: 1810976599}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2066535827
 BoxCollider2D:
@@ -17563,7 +17984,7 @@ GameObject:
   - component: {fileID: 2079114512}
   m_Layer: 0
   m_Name: PlatformTIles_8
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17663,7 +18084,7 @@ GameObject:
   - component: {fileID: 2117599390}
   m_Layer: 0
   m_Name: PlatformTIles_7 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

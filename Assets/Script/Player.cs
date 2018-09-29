@@ -38,6 +38,15 @@ public class Player : MonoBehaviour {
         transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Coins")
+        {
+            GameManager.instance.coins++;
+            Destroy(collision.gameObject);
+        }
+    }
+
     private void OnCollisionStay2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Ground")

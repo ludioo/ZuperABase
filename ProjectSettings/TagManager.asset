@@ -8,6 +8,7 @@ TagManager:
   - Clue
   - Materi
   - Ground
+  - Coins
   layers:
   - Default
   - TransparentFX
