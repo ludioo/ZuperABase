@@ -8,6 +8,7 @@ public class Player : MonoBehaviour {
     private float jumpForce = 400f;
     private bool grounded;
     private Rigidbody2D rb;
+    public Animator animator;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +18,8 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        animator.SetFloat("Speed", Mathf.Abs(speed));
         Debug.Log(grounded);
 	}
     
