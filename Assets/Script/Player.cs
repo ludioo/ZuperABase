@@ -30,7 +30,6 @@ public class Player : MonoBehaviour {
         {
             rb.AddForce(new Vector2(0, jumpForce));
         }
-            
     }
 
     public void MoveLeft()
