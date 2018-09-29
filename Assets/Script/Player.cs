@@ -27,7 +27,10 @@ public class Player : MonoBehaviour {
     public void Jump()
     {
         if(grounded)
+        {
             rb.AddForce(new Vector2(0, jumpForce));
+        }
+            
     }
 
     public void MoveLeft()
@@ -51,11 +54,7 @@ public class Player : MonoBehaviour {
             GameManager.instance.coins++;
             Destroy(collision.gameObject);
         }
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground")
         {
             grounded = true;
         }
