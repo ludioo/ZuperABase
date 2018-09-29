@@ -8340,6 +8340,7 @@ GameObject:
   - component: {fileID: 927716637}
   - component: {fileID: 927716636}
   - component: {fileID: 927716635}
+  - component: {fileID: 927716638}
   m_Layer: 5
   m_Name: btn_Jump
   m_TagString: Untagged
@@ -8404,18 +8405,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 927716636}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1675455038}
-        m_MethodName: Jump
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &927716636
@@ -8451,6 +8441,36 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 927716633}
+--- !u!114 &927716638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 927716633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1675455038}
+          m_MethodName: Jump
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &947781248
 GameObject:
   m_ObjectHideFlags: 0
@@ -14592,7 +14612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c624ac69620c41449421627b9f0f5b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1675455043}
 --- !u!70 &1675455039
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -15151,7 +15170,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.011978865, y: -0.0040763617}
+  m_Offset: {x: 0.055298686, y: 0.02299869}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15162,7 +15181,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.63983583, y: 0.6477096}
+  m_Size: {x: 1.159673, y: 1.0700772}
   m_EdgeRadius: 0
 --- !u!212 &1744010833
 SpriteRenderer:

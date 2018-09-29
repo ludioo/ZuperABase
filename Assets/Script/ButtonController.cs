@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public enum CharacterDirection { LEFT, RIGHT };
+public enum CharacterDirection { LEFT, RIGHT, JUMP };
 
 public class ButtonController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -22,6 +22,7 @@ public class ButtonController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        player.GetComponent<Animator>().SetBool("running", false);
         pressed = false;
     }
 
@@ -32,16 +33,14 @@ public class ButtonController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
             switch (direction)
             {
                 case CharacterDirection.LEFT:
+                    player.GetComponent<Animator>().SetBool("running", true);
                     player.MoveLeft();
                     break;
                 case CharacterDirection.RIGHT:
+                    player.GetComponent<Animator>().SetBool("running", true);
                     player.MoveRight();
                     break;
             }
-        }
-        else
-        {
-            
         }
     }
 }

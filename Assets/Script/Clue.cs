@@ -6,11 +6,13 @@ public class Clue : MonoBehaviour {
 
     private PopUpController popController;
     private bool interacting;
+    private bool interacted;
 
     public GameObject popUp;
 
     void Start () {
         popController = FindObjectOfType<PopUpController>();
+        interacting = false;
 	}
 	
 	void Update () {
@@ -19,10 +21,11 @@ public class Clue : MonoBehaviour {
 
     public void ShowPopUp()
     {
-        if (popController.interactable && interacting)
+        if (popController.interactable && interacting && !interacted)
         {
             Instantiate(popUp);
             interacting = false;
+            interacted = true;
         }
     }
 

@@ -6,6 +6,7 @@ public class Soal : MonoBehaviour {
 
     private PopUpController popController;
     private bool interacting;
+    private bool interacted;
 
     public GameObject popUp;
 
@@ -22,10 +23,11 @@ public class Soal : MonoBehaviour {
 
     public void ShowPopUp()
     {
-        if(popController.interactable && interacting)
+        if(popController.interactable && interacting && !interacted)
         {
             Instantiate(popUp);
             interacting = false;
+            interacted = true;
         }
             
     }
