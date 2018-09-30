@@ -14606,7 +14606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c624ac69620c41449421627b9f0f5b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curHealth: 5
   HeartSprites:
   - {fileID: 21300010, guid: 68e31410667535344a13cba48753e732, type: 3}
   - {fileID: 21300008, guid: 68e31410667535344a13cba48753e732, type: 3}
@@ -14628,8 +14627,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.026512146, y: 0.2659893}
-  m_Size: {x: 4.3586793, y: 7.595523}
+  m_Offset: {x: 0.288949, y: -0.11706988}
+  m_Size: {x: 2.64617, y: 7.099797}
   m_Direction: 0
 --- !u!50 &1675455040
 Rigidbody2D:
