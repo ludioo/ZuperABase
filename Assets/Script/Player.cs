@@ -32,6 +32,7 @@ public class Player : MonoBehaviour {
         if (curHealth <= 0)
         {
             GameManager.instance.coins = 0;
+            GameManager.instance.soal = 0;
             curHealth = 5;
         }
             

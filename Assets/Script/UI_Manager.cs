@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UI_Manager : MonoBehaviour {
 
     public Text textCoin;
+    public Text textSoal;
     public Sprite[] HeartSprites;
     public Image HeartUI;
     
@@ -15,7 +16,8 @@ public class UI_Manager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        textCoin.text = "Coins = " + GameManager.instance.coins.ToString();
+        textSoal.text = "Soal = " + GameManager.instance.soal.ToString() + "/5";
+        textCoin.text = "Coins = " + GameManager.instance.coins.ToString() + "/50";
         HeartUI.sprite = HeartSprites[Player.curHealth];
     }
 }

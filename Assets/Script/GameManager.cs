@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null;
+    public int soal;
     public int coins;
     
 
