@@ -23,7 +23,7 @@ public class Soal : MonoBehaviour {
 
     public void ShowPopUp()
     {
-        if(popController.interactable && interacting && !interacted)
+        if(popController.interactable && interacting)
         {
             Instantiate(popUp);
             interacting = false;
