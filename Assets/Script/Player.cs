@@ -62,15 +62,19 @@ public class Player : MonoBehaviour {
             GameManager.instance.coins++;
             Destroy(collision.gameObject);
         }
-        if (collision.gameObject.tag == "Ground")
-        {
-            grounded = true;
-        }
-
+        
         if (collision.gameObject.tag == "Laut")
         {
             curHealth-=2;
             SceneManager.LoadScene("Gameplay");
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            grounded = true;
         }
     }
 
