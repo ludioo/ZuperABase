@@ -1,35 +1,56 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Soal : MonoBehaviour {
 
     private PopUpController popController;
     private bool interacting;
-    private bool interacted;
+    private bool startTimer;
+    private float timer;
 
+    public Text txtTimer;
     public GameObject popUp;
 
     // Use this for initialization
     void Start () {
+        timer = 20;
         popController = FindObjectOfType<PopUpController>();
         interacting = false;
+        startTimer = false;
     }
 	
 	// Update is called once per frame
 	void Update () {
+        txtTimer.text = "Time = " + (int)timer;
         ShowPopUp();
-	}
+        if(startTimer)
+            timer -= 1 * Time.deltaTime;
+        if (timer <= 0)
+            timer = 0;
+    }
 
     public void ShowPopUp()
     {
         if(popController.interactable && interacting)
         {
-            Instantiate(popUp);
+            popUp.SetActive(true);
             interacting = false;
-            interacted = true;
+            startTimer = true;
         }
-            
+    }
+
+    public void Answer(bool answer)
+    {
+        if(answer == true)
+        {
+            Debug.Log("jawaban benar");
+        }
+        else
+        {
+            Player.curHealth--;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -48,6 +69,8 @@ public class Soal : MonoBehaviour {
             popController.triggered = false;
             popController.interactable = false;
             interacting = false;
+            startTimer = false;
+            timer = 20;
         }
     }
 }

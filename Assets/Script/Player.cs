@@ -8,14 +8,13 @@ public class Player : MonoBehaviour {
 
     private float speed = 5f;
     private float jumpForce = 400f;
-    private static int curHealth = 5;
+    public static int curHealth = 5;
     private bool grounded;
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer ren;
 
-    public Sprite[] HeartSprites;
-    public Image HeartUI;
+    
     private Player player;
 
 	// Use this for initialization
@@ -30,7 +29,12 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Debug.Log(grounded);
-        HeartUI.sprite = HeartSprites[curHealth];
+        if (curHealth <= 0)
+        {
+            GameManager.instance.coins = 0;
+            curHealth = 5;
+        }
+            
 	}
     
     public void Jump()
@@ -57,12 +61,6 @@ public class Player : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Coins")
-        {
-            GameManager.instance.coins++;
-            Destroy(collision.gameObject);
-        }
-        
         if (collision.gameObject.tag == "Laut")
         {
             curHealth-=2;
@@ -83,6 +81,15 @@ public class Player : MonoBehaviour {
         if(collision.gameObject.tag == "Ground")
         {
             grounded = false;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Coins")
+        {
+            GameManager.instance.coins++;
+            Destroy(collision.gameObject);
         }
     }
 }

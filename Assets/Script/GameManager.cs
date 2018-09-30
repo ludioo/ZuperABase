@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null;
     public int coins;
-    public Text textCoin;
+    
 
     private void Awake()
     {
@@ -26,12 +26,11 @@ public class GameManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
+        
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        
-        textCoin.text = "Coins = " + coins.ToString();
+       
 	}
 }
