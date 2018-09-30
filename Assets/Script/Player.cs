@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
 
     private float speed = 5f;
     private float jumpForce = 400f;
-    public int curHealth = 5;
+    private static int curHealth = 5;
     private bool grounded;
     private Rigidbody2D rb;
     private Animator animator;
@@ -30,7 +30,7 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Debug.Log(grounded);
-        HeartUI.sprite = HeartSprites[player.curHealth];
+        HeartUI.sprite = HeartSprites[curHealth];
 	}
     
     public void Jump()
@@ -69,7 +69,7 @@ public class Player : MonoBehaviour {
 
         if (collision.gameObject.tag == "Laut")
         {
-            curHealth--;
+            curHealth-=2;
             SceneManager.LoadScene("Gameplay");
         }
     }
