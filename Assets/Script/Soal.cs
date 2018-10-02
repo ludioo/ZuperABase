@@ -53,6 +53,7 @@ public class Soal : MonoBehaviour {
         else
         {
             Player.curHealth--;
+            popUp.SetActive(false);
         }
     }
 
