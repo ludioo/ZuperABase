@@ -41,20 +41,19 @@ public class Player : MonoBehaviour {
     {
         if(grounded)
         {
+            animator.Play("Player_Jump");
             rb.AddForce(new Vector2(0, jumpForce));
         }
     }
 
     public void MoveLeft()
     {
-        Debug.Log("PLAYER MOVE LEFT");
         ren.flipX = true;
         transform.Translate(new Vector3(-speed * Time.deltaTime, 0, 0));
     }
 
     public void MoveRight()
     {
-        Debug.Log("PLAYER MOVE RIGHT");
         ren.flipX = false;
         transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
     }

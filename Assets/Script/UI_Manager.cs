@@ -9,7 +9,9 @@ public class UI_Manager : MonoBehaviour {
     public Text textSoal;
     public Sprite[] HeartSprites;
     public Image HeartUI;
-    
+
+    public GameObject buku;
+
     // Use this for initialization
     void Start () {
 	}
@@ -19,5 +21,8 @@ public class UI_Manager : MonoBehaviour {
         textSoal.text = "Soal = " + GameManager.instance.soal.ToString() + "/5";
         textCoin.text = "Coins = " + GameManager.instance.coins.ToString() + "/50";
         HeartUI.sprite = HeartSprites[Player.curHealth];
+
+        if (GameManager.instance.soal >= 1)
+            buku.SetActive(true);
     }
 }

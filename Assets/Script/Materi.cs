@@ -6,7 +6,6 @@ public class Materi : MonoBehaviour {
 
     private PopUpController popController;
     private bool interacting;
-    private bool interacted;
 
     public GameObject popUp;
 
@@ -23,11 +22,10 @@ public class Materi : MonoBehaviour {
 
     public void ShowPopUp()
     {
-        if (popController.interactable && interacting && !interacted)
+        if (popController.interactable && interacting)
         {
             Instantiate(popUp);
             interacting = false;
-            interacted = true;
         }
     }
 

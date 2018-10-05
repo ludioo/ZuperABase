@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour {
     public int soal;
     public int coins;
     
-
     private void Awake()
     {
         if(instance == null)
@@ -26,14 +25,5 @@ public class GameManager : MonoBehaviour {
 
         DontDestroyOnLoad(gameObject);
     }
-
-    // Use this for initialization
-    void Start () {
-        
-	}
-	
-	// Update is called once per frame
-	void Update () {
-       
-	}
+    
 }
