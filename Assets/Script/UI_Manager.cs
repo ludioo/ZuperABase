@@ -18,8 +18,8 @@ public class UI_Manager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        textSoal.text = "Soal = " + GameManager.instance.soal.ToString() + "/5";
-        textCoin.text = "Coins = " + GameManager.instance.coins.ToString() + "/50";
+        textSoal.text = "Soa= " + GameManager.instance.soal.ToString() + "/5";
+        textCoin.text = "     = " + GameManager.instance.coins.ToString() + "/50";
         HeartUI.sprite = HeartSprites[Player.curHealth];
 
         if (GameManager.instance.soal >= 5)

@@ -25,10 +25,18 @@ public class Soal : MonoBehaviour {
 	void Update () {
         txtTimer.text = "Time = " + (int)timer;
         ShowPopUp();
-        if(startTimer)
+        if (startTimer)
+        {
             timer -= 1 * Time.deltaTime;
+        }
         if (timer <= 0)
-            timer = 0;
+        {
+            timer = 20;
+            startTimer = false;
+            Player.curHealth--;
+            popUp.SetActive(false);
+            
+        }
     }
 
     public void ShowPopUp()
@@ -40,6 +48,7 @@ public class Soal : MonoBehaviour {
             startTimer = true;
         }
     }
+
 
     public void Answer(bool answer)
     {
