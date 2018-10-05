@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null;
+
+    public Transform spawnPoint;
     public int soal;
     public int coins;
     
