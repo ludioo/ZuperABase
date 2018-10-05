@@ -22,7 +22,7 @@ public class UI_Manager : MonoBehaviour {
         textCoin.text = "Coins = " + GameManager.instance.coins.ToString() + "/50";
         HeartUI.sprite = HeartSprites[Player.curHealth];
 
-        if (GameManager.instance.soal >= 1)
+        if (GameManager.instance.soal >= 5)
             buku.SetActive(true);
     }
 }

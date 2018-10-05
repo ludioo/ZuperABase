@@ -45,7 +45,6 @@ public class Soal : MonoBehaviour {
     {
         if(answer == true)
         {
-            Debug.Log("jawaban benar");
             GameManager.instance.soal++;
             popUp.SetActive(false);
             Destroy(gameObject);
