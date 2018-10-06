@@ -10378,6 +10378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834764917}
   - component: {fileID: 834764916}
+  - component: {fileID: 834764918}
   m_Layer: 5
   m_Name: GameManager
   m_TagString: Untagged
@@ -10396,7 +10397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1d5f2e725bc9fc4eae20afd6b2465da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 34773702}
   soal: 0
   coins: 0
 --- !u!224 &834764917
@@ -10417,6 +10417,17 @@ RectTransform:
   m_AnchoredPosition: {x: -7.967917, y: 0.63583326}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &834764918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834764915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b69f15d407c04ea40bf4914dc8c11a23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &840917798
 GameObject:
   m_ObjectHideFlags: 0

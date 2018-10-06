@@ -5,15 +5,13 @@ using UnityEngine;
 
 public class LoadScene : MonoBehaviour {
 	
-	public void SceneLoader(int SceneIndex)
+	public void SceneLoader(int sceneIndex)
 	{
-		
-		SceneManager.LoadScene(SceneIndex);
-
+		SceneManager.LoadScene(sceneIndex);
 	}
 
-	public void SceneLoader(string sceneName);
-	{
-		SceneManager.LoadScene(sceneName);
-	}
+    public void SceneLoader(string sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex);
+    }
 }

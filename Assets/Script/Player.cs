@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
 
     private float speed = 5f;
     private float jumpForce = 400f;
-    public static int curHealth = 5;
+    public static int curHealth;
     private bool grounded;
     private Rigidbody2D rb;
     private Animator animator;
@@ -16,7 +16,7 @@ public class Player : MonoBehaviour {
 
     
     private Player player;
-    private LoadScene SceneLoader;
+    private LoadScene sceneLoader;
 
 	// Use this for initialization
 	void Start () {
@@ -25,22 +25,18 @@ public class Player : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         grounded = true;
-        SceneLoader = FindObjectOfType<LoadScene>();
-
+        sceneLoader = FindObjectOfType<LoadScene>();
+        curHealth = 5;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(grounded);
         if (curHealth <= 0)
         {
-            SceneLoader = FindObjectOfType<LoadScene>(GetActiveScene);
             GameManager.instance.coins = 0;
             GameManager.instance.soal = 0;
-            curHealth = 5;
-            
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-            
 	}
     
     public void Jump()
@@ -69,7 +65,7 @@ public class Player : MonoBehaviour {
         if (collision.gameObject.tag == "Laut")
         {
             curHealth-=2;
-            transform.position = GameManager.instance.spawnPoint.transform.position;
+            transform.position = GameManager.instance.GetSpawnPoint();
         }
     }
 

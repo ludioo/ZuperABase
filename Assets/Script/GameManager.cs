@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null;
 
-    public Transform spawnPoint;
+    private Vector3 spawnPoint;
     public int soal;
     public int coins;
     
@@ -25,5 +25,11 @@ public class GameManager : MonoBehaviour {
 
         DontDestroyOnLoad(gameObject);
     }
-    
+
+    public Vector3 GetSpawnPoint()
+    {
+        spawnPoint = GameObject.Find("SpawnPoint").transform.position;
+
+        return spawnPoint;
+    }
 }
