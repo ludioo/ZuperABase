@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour {
 
     
     private Player player;
+    private LoadScene SceneLoader;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +25,8 @@ public class Player : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         grounded = true;
+        SceneLoader = FindObjectOfType<LoadScene>();
+
 	}
 	
 	// Update is called once per frame
@@ -30,9 +34,11 @@ public class Player : MonoBehaviour {
         Debug.Log(grounded);
         if (curHealth <= 0)
         {
+            SceneLoader = FindObjectOfType<LoadScene>(GetActiveScene);
             GameManager.instance.coins = 0;
             GameManager.instance.soal = 0;
             curHealth = 5;
+            
         }
             
 	}
