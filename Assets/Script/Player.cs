@@ -42,6 +42,9 @@ public class Player : MonoBehaviour {
     {
         if(grounded)
         {
+            AudioManager audioManager;
+            audioManager = FindObjectOfType<AudioManager>();
+            audioManager.sfxJump.Play();
             animator.Play("Player_Jump");
             rb.AddForce(new Vector2(0, jumpForce));
         }

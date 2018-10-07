@@ -44,6 +44,9 @@ public class Soal : MonoBehaviour {
     {
         if(popController.interactable && interacting)
         {
+            AudioManager audioManager;
+            audioManager = FindObjectOfType<AudioManager>();
+            audioManager.sfxBuku.Play();
             popUp.SetActive(true);
             interacting = false;
             startTimer = true;
@@ -64,6 +67,9 @@ public class Soal : MonoBehaviour {
         }
         else
         {
+            AudioManager audioManager;
+            audioManager = FindObjectOfType<AudioManager>();
+            audioManager.sfxSalah.Play();
             Player.curHealth--;
             popUp.SetActive(false);
         }
@@ -73,6 +79,9 @@ public class Soal : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
         {
+            AudioManager audioManager;
+            audioManager = FindObjectOfType<AudioManager>();
+            audioManager.sfxSoal.Play();
             interacting = true;
             popController.triggered = true;
         }
