@@ -13,14 +13,14 @@ public class LevelFinish : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        txtCoin.text = "Coins = " + GameManager.instance.coins.ToString();
-        txtHealth.text = "Health Remaining = " + Player.curHealth.ToString();
-        txtTotal.text = "Total Points = " + (GameManager.instance.coins + Player.curHealth).ToString();
+        txtCoin.text = "Koin            " + GameManager.instance.coins.ToString();
+        txtHealth.text = "Sisa Hati     " + Player.curHealth.ToString();
+        //txtTotal.text = "Total Points = " + (GameManager.instance.coins + Player.curHealth).ToString();
 
         if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == 2)
         {
-            txtAsam.text = "Asam = " + GameManager.instance.asam.ToString();
-            txtBasa.text = "Basa = " + GameManager.instance.basa.ToString();
+            txtAsam.text = "Asam         " + GameManager.instance.asam.ToString();
+            txtBasa.text = "Basa          " + GameManager.instance.basa.ToString();
         }
 	}
 }
