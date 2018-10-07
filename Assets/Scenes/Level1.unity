@@ -6586,6 +6586,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 68e31410667535344a13cba48753e732, type: 3}
   HeartUI: {fileID: 1402725693}
   buku: {fileID: 1468553080}
+  materi: {fileID: 1468553084}
 --- !u!4 &446917310
 Transform:
   m_ObjectHideFlags: 0
@@ -6613,6 +6614,8 @@ MonoBehaviour:
   txtCoin: {fileID: 1343146191}
   txtHealth: {fileID: 1783967740}
   txtTotal: {fileID: 1056661393}
+  txtAsam: {fileID: 0}
+  txtBasa: {fileID: 0}
 --- !u!1 &456622889
 GameObject:
   m_ObjectHideFlags: 0

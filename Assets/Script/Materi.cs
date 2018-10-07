@@ -10,6 +10,19 @@ public class Materi : MonoBehaviour {
 
     public GameObject popUp;
 
+    public int AsamToProceed
+    {
+        get
+        {
+            return asamToProceed;
+        }
+
+        set
+        {
+            asamToProceed = value;
+        }
+    }
+
     // Use this for initialization
     void Start () {
         popController = FindObjectOfType<PopUpController>();
@@ -23,7 +36,7 @@ public class Materi : MonoBehaviour {
 
     public void ShowPopUp()
     {
-        if (popController.interactable && interacting && GameManager.instance.asam >= asamToProceed)
+        if (popController.interactable && interacting)
         {
             popUp.SetActive(true);
             interacting = false;
