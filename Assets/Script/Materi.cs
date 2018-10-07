@@ -6,6 +6,7 @@ public class Materi : MonoBehaviour {
 
     private PopUpController popController;
     private bool interacting;
+    [SerializeField]private int asamToProceed;
 
     public GameObject popUp;
 
@@ -22,7 +23,7 @@ public class Materi : MonoBehaviour {
 
     public void ShowPopUp()
     {
-        if (popController.interactable && interacting)
+        if (popController.interactable && interacting && GameManager.instance.asam >= asamToProceed)
         {
             popUp.SetActive(true);
             interacting = false;

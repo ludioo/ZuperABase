@@ -8548,7 +8548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -518.3, y: 89}
+  m_AnchoredPosition: {x: -528.4, y: 63.2}
   m_SizeDelta: {x: 188.8, y: 47.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1175916687
@@ -8579,7 +8579,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 35
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
@@ -12731,6 +12731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f53401191e5cd45a46f6a20af22806, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asamToProceed: 3
   popUp: {fileID: 573539808}
 --- !u!61 &1745882286
 BoxCollider2D:
@@ -13780,7 +13781,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -523.12, y: 37.2}
+  m_AnchoredPosition: {x: -530.49994, y: 19.800005}
   m_SizeDelta: {x: 179.22, y: 39.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1878329832
@@ -13811,7 +13812,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 35
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40

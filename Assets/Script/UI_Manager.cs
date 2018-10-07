@@ -24,8 +24,7 @@ public class UI_Manager : MonoBehaviour {
 	void Update () {
         textSoal.text = "S   = " + GameManager.instance.soal.ToString() + "/5";
         textCoin.text = "    = " + GameManager.instance.coins.ToString() + "/" + GameManager.instance.coinsCounter.ToString();
-        textAsam.text = "Asam = " + GameManager.instance.asam.ToString() + "/5";
-        textBasa.text = "Basa = " + GameManager.instance.basa.ToString() + "/5";
+        
         HeartUI.sprite = HeartSprites[Player.curHealth];
 
         if (GameManager.instance.soal >= 5)
@@ -38,6 +37,8 @@ public class UI_Manager : MonoBehaviour {
                 break;
             case 2:
                 GameManager.instance.coinsCounter = 100;
+                textAsam.text = "Asam = " + GameManager.instance.asam.ToString() + "/5";
+                textBasa.text = "Basa = " + GameManager.instance.basa.ToString() + "/5";
                 break;
             case 3:
                 GameManager.instance.coinsCounter = 150;

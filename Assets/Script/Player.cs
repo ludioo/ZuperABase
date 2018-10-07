@@ -29,6 +29,8 @@ public class Player : MonoBehaviour {
         {
             GameManager.instance.coins = 0;
             GameManager.instance.soal = 0;
+            GameManager.instance.asam = 0;
+            GameManager.instance.basa = 0;
             curHealth = 0;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
