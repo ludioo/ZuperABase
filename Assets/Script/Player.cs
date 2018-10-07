@@ -13,14 +13,17 @@ public class Player : MonoBehaviour {
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer ren;
+    public  AudioSource sfxCoin;
 
 	// Use this for initialization
 	void Start () {
+        //sfxCoin = GetComponent<AudioSource>();
         ren = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         grounded = true;
         curHealth = 5;
+        
 	}
 	
 	// Update is called once per frame
@@ -86,6 +89,7 @@ public class Player : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Coins")
         {
+            sfxCoin.Play();
             GameManager.instance.coins++;
             Destroy(collision.gameObject);
         }

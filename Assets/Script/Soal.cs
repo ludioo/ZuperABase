@@ -12,9 +12,11 @@ public class Soal : MonoBehaviour {
 
     public Text txtTimer;
     public GameObject popUp;
+    public  AudioSource sfxBenar;
 
     // Use this for initialization
     void Start () {
+        //sfxBenar = GetComponent<AudioSource>();
         timer = 20;
         popController = FindObjectOfType<PopUpController>();
         interacting = false;
@@ -54,6 +56,7 @@ public class Soal : MonoBehaviour {
     {
         if(answer == true)
         {
+            sfxBenar.Play();
             GameManager.instance.soal++;
             popUp.SetActive(false);
             Destroy(gameObject);
