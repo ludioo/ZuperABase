@@ -13,11 +13,9 @@ public class Player : MonoBehaviour {
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer ren;
-    private Player player;
 
 	// Use this for initialization
 	void Start () {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         ren = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();

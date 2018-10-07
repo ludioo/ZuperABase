@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour {
     public int soal;
     public int coins;
     public int coinsCounter;
-    public int items;
+    public int asam;
+    public int basa;
     
     private void Awake()
     {
@@ -26,6 +27,12 @@ public class GameManager : MonoBehaviour {
         }
 
         DontDestroyOnLoad(gameObject);
+    }
+
+    private void Update()
+    {
+        Debug.Log("Basa = " + basa);
+        Debug.Log("Asam = " + asam);
     }
 
     public Vector3 GetSpawnPoint()
