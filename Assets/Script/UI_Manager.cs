@@ -8,6 +8,8 @@ public class UI_Manager : MonoBehaviour {
 
     public Text textCoin;
     public Text textSoal;
+    public Text textAsam;
+    public Text textBasa;
     public Sprite[] HeartSprites;
     public Image HeartUI;
 
@@ -22,6 +24,8 @@ public class UI_Manager : MonoBehaviour {
 	void Update () {
         textSoal.text = "S   = " + GameManager.instance.soal.ToString() + "/5";
         textCoin.text = "    = " + GameManager.instance.coins.ToString() + "/" + GameManager.instance.coinsCounter.ToString();
+        textAsam.text = "Asam = " + GameManager.instance.asam.ToString() + "/5";
+        textBasa.text = "Basa = " + GameManager.instance.basa.ToString() + "/5";
         HeartUI.sprite = HeartSprites[Player.curHealth];
 
         if (GameManager.instance.soal >= 5)
