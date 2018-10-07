@@ -1877,6 +1877,10 @@ Prefab:
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1084546986723144, guid: af6d15782b2c5be4184517567e127746, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af6d15782b2c5be4184517567e127746, type: 2}
   m_IsPrefabParent: 0
@@ -2790,7 +2794,7 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1468553080}
+      objectReference: {fileID: 649060429}
     - target: {fileID: 114158497631100580, guid: 47b292e7d1af4854f8a09bc7a8ae4755,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2798,7 +2802,7 @@ Prefab:
       objectReference: {fileID: 1914261465}
     - target: {fileID: 1837872014067956, guid: 47b292e7d1af4854f8a09bc7a8ae4755, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114125033149625254, guid: 47b292e7d1af4854f8a09bc7a8ae4755,
         type: 2}
@@ -3448,7 +3452,7 @@ Prefab:
     - target: {fileID: 114677954723528374, guid: 47b292e7d1af4854f8a09bc7a8ae4755,
         type: 2}
       propertyPath: m_Text
-      value: Back
+      value: Kembali
       objectReference: {fileID: 0}
     - target: {fileID: 114677954723528374, guid: 47b292e7d1af4854f8a09bc7a8ae4755,
         type: 2}
@@ -10288,6 +10292,10 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Answer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488542671727920, guid: 66994b2980f01d949a6d0a2ccbb8f7fc, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66994b2980f01d949a6d0a2ccbb8f7fc, type: 2}
@@ -20675,6 +20683,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 852015738}
+    - target: {fileID: 1829503190940356, guid: a6c51d945c90c02468c53a1de4c04a27, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6c51d945c90c02468c53a1de4c04a27, type: 2}
   m_IsPrefabParent: 0
