@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
     private Vector3 spawnPoint;
     public int soal;
     public int coins;
+    public int items;
     
     private void Awake()
     {
