@@ -24,7 +24,7 @@ public class Materi : MonoBehaviour {
     {
         if (popController.interactable && interacting)
         {
-            Instantiate(popUp);
+            popUp.SetActive(true);
             interacting = false;
         }
     }

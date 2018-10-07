@@ -2,21 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
+    public static int curHealth;
+
     private float speed = 5f;
     private float jumpForce = 400f;
-    public static int curHealth;
     private bool grounded;
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer ren;
-
-    
     private Player player;
-    private LoadScene sceneLoader;
 
 	// Use this for initialization
 	void Start () {
@@ -25,7 +22,6 @@ public class Player : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         grounded = true;
-        sceneLoader = FindObjectOfType<LoadScene>();
         curHealth = 5;
 	}
 	
