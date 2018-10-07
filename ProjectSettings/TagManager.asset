@@ -10,6 +10,7 @@ TagManager:
   - Ground
   - Coins
   - Laut
+  - Items
   layers:
   - Default
   - TransparentFX
