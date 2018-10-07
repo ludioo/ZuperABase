@@ -13,7 +13,6 @@ public class Player : MonoBehaviour {
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer ren;
-    public  AudioSource sfxCoin;
 
 	// Use this for initialization
 	void Start () {
@@ -89,7 +88,9 @@ public class Player : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Coins")
         {
-            sfxCoin.Play();
+            AudioManager audioManager;
+            audioManager = FindObjectOfType<AudioManager>();
+            audioManager.sfxCoin.Play();
             GameManager.instance.coins++;
             Destroy(collision.gameObject);
         }
