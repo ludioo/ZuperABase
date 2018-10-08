@@ -11,5 +11,8 @@ public class AudioManager : MonoBehaviour{
     public AudioSource sfxAir;
     public AudioSource sfxBuku;
     public AudioSource sfxSoal;
+    public AudioSource sfxStep;
+    public AudioSource sfxBotol;
+    public AudioSource sfxTimer;
 
 }

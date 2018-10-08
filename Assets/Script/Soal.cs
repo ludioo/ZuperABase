@@ -12,12 +12,14 @@ public class Soal : MonoBehaviour {
 
     public Text txtTimer;
     public GameObject popUp;
+    private AudioManager audioManager;
+
 
     // Use this for initialization
     void Start () {
-        //sfxBenar = GetComponent<AudioSource>();
         timer = 20;
         popController = FindObjectOfType<PopUpController>();
+        audioManager = FindObjectOfType<AudioManager>();
         interacting = false;
         startTimer = false;
     }
@@ -32,6 +34,7 @@ public class Soal : MonoBehaviour {
         }
         if (timer <= 0)
         {
+            audioManager.sfxSalah.Play();
             timer = 20;
             startTimer = false;
             Player.curHealth--;
@@ -44,9 +47,8 @@ public class Soal : MonoBehaviour {
     {
         if(popController.interactable && interacting)
         {
-            AudioManager audioManager;
-            audioManager = FindObjectOfType<AudioManager>();
             audioManager.sfxBuku.Play();
+            audioManager.sfxTimer.Play();
             popUp.SetActive(true);
             interacting = false;
             startTimer = true;
@@ -58,8 +60,6 @@ public class Soal : MonoBehaviour {
     {
         if(answer == true)
         {
-            AudioManager audioManager;
-            audioManager = FindObjectOfType<AudioManager>();
             audioManager.sfxBenar.Play();
             GameManager.instance.soal++;
             popUp.SetActive(false);
@@ -67,8 +67,6 @@ public class Soal : MonoBehaviour {
         }
         else
         {
-            AudioManager audioManager;
-            audioManager = FindObjectOfType<AudioManager>();
             audioManager.sfxSalah.Play();
             Player.curHealth--;
             popUp.SetActive(false);
@@ -79,8 +77,6 @@ public class Soal : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
         {
-            AudioManager audioManager;
-            audioManager = FindObjectOfType<AudioManager>();
             audioManager.sfxSoal.Play();
             interacting = true;
             popController.triggered = true;

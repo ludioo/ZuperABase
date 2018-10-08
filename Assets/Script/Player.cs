@@ -13,6 +13,7 @@ public class Player : MonoBehaviour {
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer ren;
+    private AudioManager audioManager;
 
 	// Use this for initialization
 	void Start () {
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour {
         ren = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        audioManager = FindObjectOfType<AudioManager>();
         grounded = true;
         curHealth = 5;
         
@@ -42,8 +44,6 @@ public class Player : MonoBehaviour {
     {
         if(grounded)
         {
-            AudioManager audioManager;
-            audioManager = FindObjectOfType<AudioManager>();
             audioManager.sfxJump.Play();
             animator.Play("Player_Jump");
             rb.AddForce(new Vector2(0, jumpForce));
@@ -66,6 +66,7 @@ public class Player : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Laut")
         {
+            audioManager.sfxAir.Play();
             curHealth-=2;
             transform.position = GameManager.instance.GetSpawnPoint();
         }
@@ -91,8 +92,6 @@ public class Player : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Coins")
         {
-            AudioManager audioManager;
-            audioManager = FindObjectOfType<AudioManager>();
             audioManager.sfxCoin.Play();
             GameManager.instance.coins++;
             Destroy(collision.gameObject);

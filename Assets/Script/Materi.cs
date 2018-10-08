@@ -9,6 +9,7 @@ public class Materi : MonoBehaviour {
     [SerializeField]private int asamToProceed;
 
     public GameObject popUp;
+    private AudioManager audioManager;
 
     public int AsamToProceed
     {
@@ -27,6 +28,7 @@ public class Materi : MonoBehaviour {
     void Start () {
         popController = FindObjectOfType<PopUpController>();
         interacting = false;
+        audioManager = FindObjectOfType<AudioManager>();
     }
 	
 	// Update is called once per frame
@@ -38,6 +40,7 @@ public class Materi : MonoBehaviour {
     {
         if (popController.interactable && interacting)
         {
+            audioManager.sfxBuku.Play();
             popUp.SetActive(true);
             interacting = false;
         }

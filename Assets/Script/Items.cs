@@ -16,10 +16,12 @@ public class Items : MonoBehaviour {
     private bool interacting;
 
     public Image text;
+    private AudioManager audioManager;
 
     private void Start()
     {
         popController = FindObjectOfType<PopUpController>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     private void Update()
@@ -35,10 +37,12 @@ public class Items : MonoBehaviour {
             switch(type)
             {
                 case TypeChemical.ASAM:
+                    audioManager.sfxBotol.Play();
                     GameManager.instance.asam++;
                     Destroy(gameObject);
                     break;
                 case TypeChemical.BASA:
+                    audioManager.sfxBotol.Play();
                     GameManager.instance.basa++;
                     Destroy(gameObject);
                     break;

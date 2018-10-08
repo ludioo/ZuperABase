@@ -14,7 +14,7 @@ public class LevelFinish : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         txtCoin.text = "Koin            " + GameManager.instance.coins.ToString();
-        txtHealth.text = "Sisa Hati     " + Player.curHealth.ToString();
+        txtHealth.text = "Hati             " + Player.curHealth.ToString();
         //txtTotal.text = "Total Points = " + (GameManager.instance.coins + Player.curHealth).ToString();
 
         if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex == 2)
