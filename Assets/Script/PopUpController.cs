@@ -14,10 +14,8 @@ public class PopUpController : MonoBehaviour
 	
     public void Click()
     {
-        Debug.Log("clicked");
         if (triggered)
         {
-            Debug.Log("triggered = " + triggered);
             interactable = true;
         }
     }

@@ -9,10 +9,11 @@ public class Soal : MonoBehaviour {
     private bool interacting;
     private bool startTimer;
     private float timer;
+    private AudioManager audioManager;
+
 
     public Text txtTimer;
     public GameObject popUp;
-    private AudioManager audioManager;
 
 
     // Use this for initialization
@@ -26,7 +27,7 @@ public class Soal : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        txtTimer.text = "Time = " + (int)timer;
+        txtTimer.text = " " + (int)timer;
         ShowPopUp();
         if (startTimer)
         {
@@ -39,7 +40,7 @@ public class Soal : MonoBehaviour {
             startTimer = false;
             Player.curHealth--;
             popUp.SetActive(false);
-            
+            audioManager.sfxTimer.Stop();
         }
     }
 
@@ -47,8 +48,8 @@ public class Soal : MonoBehaviour {
     {
         if(popController.interactable && interacting)
         {
-            audioManager.sfxBuku.Play();
             audioManager.sfxTimer.Play();
+            audioManager.sfxBuku.Play();
             popUp.SetActive(true);
             interacting = false;
             startTimer = true;
@@ -63,12 +64,14 @@ public class Soal : MonoBehaviour {
             audioManager.sfxBenar.Play();
             GameManager.instance.soal++;
             popUp.SetActive(false);
+            audioManager.sfxTimer.Stop();
             Destroy(gameObject);
         }
         else
         {
             audioManager.sfxSalah.Play();
             Player.curHealth--;
+            audioManager.sfxTimer.Stop();
             popUp.SetActive(false);
         }
     }

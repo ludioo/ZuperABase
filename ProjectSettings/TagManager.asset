@@ -11,6 +11,10 @@ TagManager:
   - Coins
   - Laut
   - Items
+  - Enemy
+  - Hcl
+  - c2h2o4
+  - c6h8o7
   layers:
   - Default
   - TransparentFX
