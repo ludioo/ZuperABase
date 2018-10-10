@@ -100,6 +100,8 @@ public class Player : MonoBehaviour {
         {
             if(Time.time > nextFire)
             {
+                audioManager.sfxThrow.Play();
+                animator.Play("Player_Throw");
                 GameObject gun = GameObject.Find("Gun");
                 GameObject weaponGO = Instantiate(weapon[currentWeapon], transform.position, Quaternion.identity);
                 

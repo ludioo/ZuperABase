@@ -14,4 +14,10 @@ public class LoadScene : MonoBehaviour {
     {
         SceneManager.LoadScene(sceneIndex);
     }
+
+    public void onClick()
+    {
+        Application.Quit();
+        Debug.Log("Quit");
+    }
 }

@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour {
     public int soal;
     public int coins;
     public int coinsCounter;
+    public int soalCounter;
     public int asam;
     public int basa;
     

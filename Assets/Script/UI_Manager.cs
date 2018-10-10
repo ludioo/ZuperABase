@@ -24,13 +24,21 @@ public class UI_Manager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        textSoal.text = "S            " + GameManager.instance.soal.ToString() + "/5";
+        textSoal.text = "S            " + GameManager.instance.soal.ToString() + "/" + GameManager.instance.soalCounter;
         textCoin.text = "             " + GameManager.instance.coins.ToString() + "/" + GameManager.instance.coinsCounter.ToString();
         
         HeartUI.sprite = HeartSprites[Player.curHealth];
 
-        if (GameManager.instance.soal >= 5)
+
+        if (GameManager.instance.soal >= 3)
         {
+            if(SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                if(GameManager.instance.soal >= 5)
+                {
+                    buku.SetActive(true);
+                }
+            }
             if(SceneManager.GetActiveScene().buildIndex == 2)
             {
                 if(GameManager.instance.asam >= materi.AsamToProceed)
@@ -38,37 +46,37 @@ public class UI_Manager : MonoBehaviour {
                     buku.SetActive(true);
                 }
             }
-            else
-            {
                 buku.SetActive(true);
-            }
         }
             
         switch (SceneManager.GetActiveScene().buildIndex)
         {
             case 1:
                 GameManager.instance.coinsCounter = 50;
+                GameManager.instance.soalCounter = 5;
                 break;
             case 2:
                 GameManager.instance.coinsCounter = 100;
+                GameManager.instance.soalCounter = 5;
                 textAsam.text = "Asam  =  " + GameManager.instance.asam.ToString() + " / 3";
                 textBasa.text = "Basa  =  " + GameManager.instance.basa.ToString() + " / 3";
                 break;
             case 3:
-                GameManager.instance.coinsCounter = 150;
+                GameManager.instance.soalCounter = 3;
+                GameManager.instance.coinsCounter = 100;
                 break;
         }
     }
 
     public void BuyClue(Text bodyClue)
     {
-        if(GameManager.instance.coins >= 25)
+        if(GameManager.instance.coins >= 50)
         {
             GameObject buttonBuy;
             buttonBuy = GameObject.Find("btn_Beli");
             buttonBuy.SetActive(false);
             bodyClue.gameObject.SetActive(true);
-            GameManager.instance.coins -= 25;
+            GameManager.instance.coins -= 50;
         }else{
             GameObject clue;
             clue = GameObject.Find("PopUpCanvasClue");

@@ -14,5 +14,6 @@ public class AudioManager : MonoBehaviour{
     public AudioSource sfxStep;
     public AudioSource sfxBotol;
     public AudioSource sfxTimer;
+    public AudioSource sfxThrow;
 
 }
