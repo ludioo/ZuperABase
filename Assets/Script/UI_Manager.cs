@@ -29,39 +29,31 @@ public class UI_Manager : MonoBehaviour {
         
         HeartUI.sprite = HeartSprites[Player.curHealth];
 
-
-        if (GameManager.instance.soal >= 3)
-        {
-            if(SceneManager.GetActiveScene().buildIndex == 1)
-            {
-                if(GameManager.instance.soal >= 5)
-                {
-                    buku.SetActive(true);
-                }
-            }
-            if(SceneManager.GetActiveScene().buildIndex == 2)
-            {
-                if(GameManager.instance.asam >= materi.AsamToProceed)
-                {
-                    buku.SetActive(true);
-                }
-            }
-                buku.SetActive(true);
-        }
-            
         switch (SceneManager.GetActiveScene().buildIndex)
         {
             case 1:
+                if (GameManager.instance.soal >= 5)
+                {
+                    buku.SetActive(true);
+                }
                 GameManager.instance.coinsCounter = 50;
                 GameManager.instance.soalCounter = 5;
                 break;
             case 2:
+                if (GameManager.instance.asam >= materi.AsamToProceed)
+                {
+                    buku.SetActive(true);
+                }
                 GameManager.instance.coinsCounter = 100;
                 GameManager.instance.soalCounter = 5;
                 textAsam.text = "Asam  =  " + GameManager.instance.asam.ToString() + " / 3";
                 textBasa.text = "Basa  =  " + GameManager.instance.basa.ToString() + " / 3";
                 break;
             case 3:
+                if (GameManager.instance.soal >= 3)
+                {
+                    buku.SetActive(true);
+                }
                 GameManager.instance.soalCounter = 3;
                 GameManager.instance.coinsCounter = 100;
                 break;

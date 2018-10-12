@@ -24,8 +24,6 @@ public class Enemy : MonoBehaviour {
         minDist = transform.position.x - 2f;
 	}
 
-
-
     private void Update()
     {
         switch (direction)
@@ -72,7 +70,9 @@ public class Enemy : MonoBehaviour {
 	{
 		if(collision.gameObject.tag == "Hcl")
 		{
-			Destroy(gameObject,2);
+			Destroy(gameObject, 2f);
+            enemySpeed = 0;
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
             animator.Play("Enemy_Happy");
 			Destroy(collision.gameObject);
 		}

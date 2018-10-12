@@ -7,6 +7,9 @@ public class DialogueManager : MonoBehaviour {
 
 	public Text nameText;
 	public Text dialogueText;
+    public Button btnNext;
+
+    private float textSpeed;
 
 	private Queue <string> sentences;
 
@@ -24,22 +27,21 @@ public class DialogueManager : MonoBehaviour {
 		{
 			sentences.Enqueue(sentence);
 		}
-
 		DisplayNextSentence();
 	}
 
 	public void DisplayNextSentence ()
-	{
-		if (sentences.Count == 0)
+    {
+        btnNext.gameObject.SetActive(false);
+        if (sentences.Count == 0)
 		{
 			EndDialogue();
 			return;
 		}
-
 		
-	string sentence = sentences.Dequeue();
-	StopAllCoroutines();
-	StartCoroutine(TypeSentence(sentence));
+	    string sentence = sentences.Dequeue();
+	    StopAllCoroutines();
+	    StartCoroutine(TypeSentence(sentence));
 	}
 
 	IEnumerator TypeSentence (string sentence)
@@ -50,10 +52,11 @@ public class DialogueManager : MonoBehaviour {
 			dialogueText.text += letter;
 			yield return null;
 		}
+        btnNext.gameObject.SetActive(true);
 	}
 	void EndDialogue()
 	{
-		Debug.Log("Selesai Ngomong");
+        FindObjectOfType<LoadScene>().SceneLoader(1);
 	}
 
 
