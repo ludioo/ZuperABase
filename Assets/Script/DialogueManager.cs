@@ -8,15 +8,16 @@ public class DialogueManager : MonoBehaviour {
 	public Text nameText;
 	public Text dialogueText;
     public Button btnNext;
+    public Dialogue dialogue;
 
     private float textSpeed;
 
 	private Queue <string> sentences;
 
 	void Start () {
-		sentences = new Queue<string>();
-		
-	}
+        sentences = new Queue<string>();
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+    }
 
 	public void StartDialogue (Dialogue dialogue)
 	{
@@ -56,7 +57,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 	void EndDialogue()
 	{
-        FindObjectOfType<LoadScene>().SceneLoader(1);
+        FindObjectOfType<LoadScene>().SceneLoader(6);
 	}
 
 
