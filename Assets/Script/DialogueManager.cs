@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour {
 
@@ -19,7 +20,14 @@ public class DialogueManager : MonoBehaviour {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 
-	public void StartDialogue (Dialogue dialogue)
+    public void Init()
+    {
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        GameObject.Find("StartButton").gameObject.SetActive(false);
+    }
+
+
+    public void StartDialogue (Dialogue dialogue)
 	{
 		nameText.text = dialogue.name;
 		sentences.Clear();
@@ -55,10 +63,32 @@ public class DialogueManager : MonoBehaviour {
 		}
         btnNext.gameObject.SetActive(true);
 	}
-	void EndDialogue()
-	{
-        FindObjectOfType<LoadScene>().SceneLoader(6);
-	}
+    void EndDialogue()
+    {
+        if (SceneManager.GetActiveScene().name == "Intro")
+        {
+            FindObjectOfType<LoadScene>().SceneLoader(6);
+        }
+        else if (SceneManager.GetActiveScene().name == "Narasi")
+        {
+            FindObjectOfType<LoadScene>().SceneLoader(7);
+        }
+
+        else if (SceneManager.GetActiveScene().name == "ProfAns")
+        {
+            FindObjectOfType<LoadScene>().SceneLoader(1);
+        }
+
+        else if (SceneManager.GetActiveScene().name == "Level3")
+        {
+            FindObjectOfType<LoadScene>().SceneLoader(8);
+        }
+
+        else
+        {
+
+        }
+    }
 
 
 	

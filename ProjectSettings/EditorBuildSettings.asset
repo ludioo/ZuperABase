@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Narasi.unity
     guid: 0b2ae26254c004d4dadb6c4eb1adc304
+  - enabled: 1
+    path: Assets/Scenes/ProfAns.unity
+    guid: b14f9a6aeaa634c4f8cfda8a2701213f
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 102a95b5bab83544c82e471d166bbab3
   m_configObjects: {}
